@@ -31,5 +31,5 @@ async def Thomson(data: NestedData):
 
         return {
             "fulfillmentText":
-                f"{dosage}mg"            
+                f"投与量は{dosage}mgです。"            
         }
