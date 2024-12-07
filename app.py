@@ -6,7 +6,7 @@ app = FastAPI()
 #https://pkpd2fast.herokuapp.com/
 
 class Parameters(BaseModel):
-    medicine:str = "アセトアミノフェン,
+    medicine:str = "アセトアミノフェン",
     unit: str = "kg",
     number: float = 10
 
